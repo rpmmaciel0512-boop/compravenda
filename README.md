@@ -1,10 +1,8 @@
-# Compra e Venda de Ativos
+# Distribuicao
 
-Arquivos de atualizacao do sistema. O proprio sistema busca aqui, sozinho, pelo endereco
-configurado em `ATUALIZACAO_URL`.
+Arquivos de atualizacao. Baixados automaticamente pelo programa que os utiliza.
 
-Os arquivos ficam em **Releases**, na tag `atual`, e sao substituidos a cada versao -- o
-endereco nao muda. O manifesto `versao-atual.json` e assinado; o sistema recusa pacote cuja
-assinatura nao confira.
+Ficam em **Releases**, na tag `atual`, e sao substituidos a cada versao -- o endereco nao muda.
+O manifesto e assinado e pacote sem assinatura valida e recusado.
 
-Nao ha codigo-fonte aqui.
+Sem codigo-fonte. Sem suporte publico.
